@@ -1,0 +1,49 @@
+.toolbar{
+  -webkit-app-region: drag;
+}
+
+[v-cloak]{
+  pointer-events: none !important;
+  opacity: 0.0 !important;
+}
+
+.default-hide[v-cloak]{
+  display: none;
+}
+
+.table-pane{
+  background: repeating-linear-gradient(to bottom, #F5F5F4 0px, #F5F5F4 23px, #fff 23px, #fff 46px);
+}
+
+.datalist{
+  display: block;
+}
+
+.datalist thead,
+.datalist tbody{
+  display: block;
+  width: 100%;
+}
+
+.datalist tbody{
+  overflow-y: auto;
+}
+
+.datalist tr{
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.datalist .table-type{
+  width: 80px;
+  text-align: center;
+}
+
+.datalist .table-key{
+  width: 300px;
+}
+
+.datalist .table-data{
+  flex: 1;
+}
